@@ -1,0 +1,101 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps");
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+th, td {
+  padding: 15px;
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.05;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #7c7c7c;
+}
+
+h3 {
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  text-align: center;
+  font-weight: normal;
+  color: #7c7c7c;
+}
+
+p {
+  font-size: 0.8em;
+  letter-spacing: 0px;
+  text-align: center;
+  font-weight: normal;
+  color: #7c7c7c;
+}
+
+#logo_h2 {
+  color: #d02ebf;
+  font-size: 2.3em;
+  font-family: 'Oleo Script Swash Caps', monospace;
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+  padding-left: 10px;
+}
+
+#logo_h2:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+#spcl-fnt {
+  font-family: 'Oleo Script Swash Caps', monospace;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+.btn {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: center;
+  color: #d02ebf;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #7c7c7c;
+}
